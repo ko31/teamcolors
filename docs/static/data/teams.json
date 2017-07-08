@@ -1,5 +1,12 @@
 [
   {
+    "name": "早稲田実",
+    "league": "tokyo",
+    "colors": {
+      "hex"   :   ["9a2031", "f8f4e6"]
+    }
+  },
+  {
     "name": "横浜",
     "league": "kanagawa",
     "colors": {
