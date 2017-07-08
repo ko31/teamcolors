@@ -5,7 +5,7 @@ module.exports = {
   entry: ['./src/scripts/index.jsx'],
 
   output: {
-    path: path.join(__dirname, 'build/scripts'),
+    path: path.join(__dirname, 'docs/dst/scripts'),
     filename: 'index.js',
     //1publicPath: '/assets/scripts/'
   },

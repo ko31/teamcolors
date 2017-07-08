@@ -9,8 +9,8 @@
     "prod:static": "node src/scripts/generateStatic.js",
     "webpack:dev": "./node_modules/.bin/webpack --d --config webpack.config.js",
     "webpack:prod": "./node_modules/.bin/webpack -p --config webpack.config.js",
-    "css:dev": "./node_modules/.bin/node-sass src/styles/index.scss build/styles/index.css",
-    "css:prod": "./node_modules/.bin/node-sass --output-style=compressed src/styles/index.scss build/styles/index.css",
+    "css:dev": "./node_modules/.bin/node-sass src/styles/index.scss docs/dst/styles/index.css",
+    "css:prod": "./node_modules/.bin/node-sass --output-style=compressed src/styles/index.scss docs/dst/styles/index.css",
     "lint": "./node_modules/.bin/eslint src/scripts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
