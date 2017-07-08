@@ -1,30 +1,29 @@
 {
   "name": "teamcolors.github.io",
   "version": "1.0.0",
-  "description": "Team Colors is a reference of color values for major league sporting teams.",
+  "description": "Team Colors is a reference of color values for japanese high school baseball teams.",
   "private": true,
   "scripts": {
-    "dev": "npm run css:build && npm run css:dev & npm run webpack:dev",
+    "dev": "npm run css:dev & npm run webpack:dev",
     "prod": "npm run css:prod && npm run webpack:prod",
     "prod:static": "node src/scripts/generateStatic.js",
-    "webpack:dev": "./node_modules/.bin/webpack --watch --d --config webpack.config.js",
+    "webpack:dev": "./node_modules/.bin/webpack --d --config webpack.config.js",
     "webpack:prod": "./node_modules/.bin/webpack -p --config webpack.config.js",
-    "css:build": "./node_modules/.bin/node-sass src/styles/index.scss build/styles/index.css",
-    "css:dev": "./node_modules/.bin/node-sass -w src/styles/index.scss build/styles/index.css",
+    "css:dev": "./node_modules/.bin/node-sass src/styles/index.scss build/styles/index.css",
     "css:prod": "./node_modules/.bin/node-sass --output-style=compressed src/styles/index.scss build/styles/index.css",
     "lint": "./node_modules/.bin/eslint src/scripts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/teamcolors/teamcolors.github.io.git"
+    "url": "https://github.com/ko31/teamcolors.git"
   },
-  "author": "Jim Nielsen",
+  "author": "Ko Takagi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/teamcolors/teamcolors.github.io/issues"
   },
-  "homepage": "https://github.com/teamcolors/teamcolors.github.io",
+  "homepage": "https://github.com/ko31/teamcolors",
   "dependencies": {
     "lodash": "^3.10.1",
     "react": "^0.14.3",
