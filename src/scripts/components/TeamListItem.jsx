@@ -32,9 +32,7 @@ export default React.createClass({
 
     return (
       <li className='team'>
-        <h3
-          className='team-name'
-          style={{backgroundImage: `url(static/img/${team.league}/${team.id}.svg)`}}>
+        <h3 className='team-name'>
           {team.name}
         </h3>
         <ul className='colors'>

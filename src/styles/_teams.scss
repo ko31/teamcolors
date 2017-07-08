@@ -33,7 +33,7 @@
 
   // SVG support allows for logos on this element
   // background-image set dynamically w/javascript
-  padding-top: 125px;
+  padding-top: em(16);
   background-size: 125px;
   background-repeat: no-repeat;
   background-position: center 0;

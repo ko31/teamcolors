@@ -49,7 +49,7 @@ export default React.createClass({
             ref='leagueInput'
             onChange={this.handleChange}
             value={activeLeague}>
-              <option value=''>All leagues...</option>
+              <option value=''>All prefectures...</option>
               {
                 leagues.sort().map((league, i) => {
                   let disabled
@@ -101,7 +101,7 @@ export default React.createClass({
             onKeyUp={this.handleKeyUp}
             defaultValue={activeSearch}
             type='text'
-            placeholder='Filter by team name...'
+            placeholder='Filter by school name...'
             autoComplete='off'
             autoCorrect='off'
             spellCheck='false'
