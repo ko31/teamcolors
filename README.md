@@ -1,6 +1,6 @@
 # Team Colors
 
-- [TeamColors](https://ko31.github.io/teamcolors/): Find and copy color values from your favorite japanese high school baseball teams.
+- [TeamColors](https://ko31.github.io/teamcolors/)
 
 This Team Colors is a fork from [Team Colors](http://jim-nielsen.com/teamcolors) is a reference of HEX values for the brand colors of japanese high school baseball teams.
 
